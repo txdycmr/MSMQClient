@@ -7,7 +7,7 @@ namespace MSMQClient.MessagingFactory
     {
         private QueueAccess() { }
 
-        public static IMessage CreateOrder()
+        public static IMessage CreateMessage()
         {
             return new MSMQClient.MSMQMessaging.Message();
         }
